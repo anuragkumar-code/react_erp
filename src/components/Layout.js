@@ -1,21 +1,17 @@
 import React from "react";
 
 import Sidebar from "./Sidebar";
-import Navbar from "./Navbar";
+import Header from "./Header";
 
 
 const Layout = () => {
     return (
-        <div className="container grid grid-cols-12 gap-4">
-            <div className="col-span-3 min-h-screen">
+        <div className="flex flex-col h-screen">
+            <Header />
+            <div className="flex flex-1">
                 <Sidebar />
             </div>
-
-            <div className="col-span-9">
-                <div className="grid-rows-1">
-                    <Navbar />
-                </div>
-            </div>
+            
         </div>
     );
 }
