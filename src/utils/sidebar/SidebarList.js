@@ -14,9 +14,9 @@ const SidebarList = () => {
                 </Link>
             </li>
             <li className="mb-2">
-                <a className="block hover:bg-gray-900 py-2 px-2 rounded">
+                <Link to="/item" className="block hover:bg-gray-900 py-2 px-2 rounded">
                     Item
-                </a>
+                </Link>
             </li>
             <li className="mb-2">
                 <a className="block hover:bg-gray-900 py-2 px-2 rounded">

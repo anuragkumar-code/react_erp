@@ -1,6 +1,5 @@
 import React from "react";
-
-import SidebarList from "./Sidebar/SidebarList";
+import SidebarList from "../utils/sidebar/SidebarList";
 
 const Sidebar = () => {
     return (
